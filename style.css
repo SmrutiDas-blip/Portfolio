@@ -1,0 +1,122 @@
+ * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-color: rgba(6, 38, 1, 0.957);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(11, 104, 2);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        nav ul li a:hover{
+            color:rgb(175, 239, 11);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .right {
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            
+            font-size: 3rem;
+
+        }
+
+        .rightSection img {
+
+            width: 500px;
+         }
+         .white{
+            color:rgb(192, 243, 11);
+         }
+         .green{
+            color:rgb(192, 243, 11);
+         }
+           .abt h2 {
+            margin: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .abt p {
+            margin: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .skillcontainer{
+            padding: 20px;
+        }
+        .skillItem{
+            display:flex;
+            align-items: center;
+        }
+        .skill{
+            width: 265px;
+            height: 6px;
+            
+            border:2px solid ;
+        }
+        .t70{
+            width: 265px;
+            background-color:rgb(150, 238, 9); 
+        }
+        .t60{
+            width: 180px;
+            background-color:rgb(150, 238, 9); 
+        }
+        .t40{
+            width: 50px;
+            background-color:rgb(150, 238, 9);
+        }
+        
+        .contactform {
+            font-family: 'Poppins', sans-serif;
+            padding-top: 30px;
+            padding: 0 34px;
+
+        }
+        .contactform h1{
+            font-family: 'Poppins', sans-serif;
+            margin: 10px;
+        }
+        .contactform form div{
+            padding: 10px 0;
+            flex-direction: column;
+        }
