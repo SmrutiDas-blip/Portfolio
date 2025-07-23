@@ -29,32 +29,34 @@
         <div class="contactform">
             <h1>Contact me</h1>
             <form>
-                <div class="mb-3">
-                    <label for="clientname" class="form-label">Name</label>
-                    <input type="email" class="form-control" id="clientname" aria-describedby="emailHelp">
-
+                <div>
+                    <label for="clientname">Name</label>
+                    <input type="text" id="clientname" name="clientname" required>
                 </div>
-                <div class="mb-3">
-                    <label for="clientemail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="clientemail">
+                <div>
+                    <label for="clientemail">Email</label>
+                    <input type="email" id="clientemail" name="clientemail" required>
                 </div>
-                <div class="mb-3 form-check">
-                    <label for="clientname" class="form-label">Phone</label>
-                    <input type="email" class="form-control" id="clientname" aria-describedby="emailHelp">
+                <div>
+                    <label for="clientphone">Phone Number</label>
+                    <input type="tel" id="clientphone" name="clientphone" required>
                 </div>
-                <div class="mb-3 form-check">
-                    <label for="clientname" class="form-label">Enquiry</label>
-                    <input type="email" class="form-control" id="clientname" aria-describedby="emailHelp">
+                <div>
+                    <label for="clientenquiry">Enquiry</label>
+                    <textarea id="clientenquiry" name="clientenquiry" rows="3" required></textarea>
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="isclient">
-                    <label class="form-check-label" for="isclient">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
-    </main>
 
+        
+    </main>
+    <script >
+   document.querySelector('.contactform form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Thank you for contacting me!');
+});
+</script>
 </body>
 
 </html>
